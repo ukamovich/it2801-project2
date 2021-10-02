@@ -1,0 +1,4 @@
+
+npm i jquery
+npm i --save-dev @types/styled-components
+npm i --save-dev @types/react-test-renderer

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  className="header2k"
+>
+  <div
+    className="robocont"
+  >
+    <img
+      alt="Logo"
+      id="robo"
+      src="robot2k.png"
+    />
+  </div>
+  <h1>
+    The Commit Grabber
+  </h1>
+  <button
+    className="sc-bdfBQB gwImaZ"
+    onClick={[Function]}
+  >
+    DarkMode
+  </button>
+</header>
+`;

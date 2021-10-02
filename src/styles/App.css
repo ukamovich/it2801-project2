@@ -1,0 +1,181 @@
+
+.wrapperContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header2k {
+  background-color:darkcyan;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loginContainer {
+  padding: 10px;
+}
+
+#robo {
+  height: 80px;
+  width: 80px;
+  margin: 5px;
+}
+
+.robocont {
+  order: 1;
+}
+
+#title {
+  order: 2;
+}
+
+#darkButtonCont {
+  order: 3;
+}
+
+#darkButton {
+  margin: 5px;
+}
+
+.contentInternal {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+
+.footer {
+  width: 100vw;
+  background-color:darkcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#chartdiv {
+  height: 300px;
+  width: 600px;
+  margin:10px;
+}
+
+.imgDiv {
+ height: 200px;
+ width: 200px;
+ margin:10px;
+}
+
+#gitlabPhoto {
+  width: 100%;
+  height: 100%;
+}
+
+#userInteraction {
+  padding: 15px;
+}
+
+h1 {
+  font-family: fantasy;
+  
+}
+
+
+
+/* ---------- Very small screen --------- */
+@media only screen and (max-width: 500px) {
+  .header2k {
+    justify-content: center;
+    flex-flow: row wrap;
+  }
+  .robocont {
+    order: 2;
+  }
+  
+  #title {
+    width: 100vw;
+    text-align: center;
+    order: 1;
+  }
+  
+  #darkButtonCont {
+    order: 3;
+  }
+}
+
+
+/* -----------------Tablet---------------------- */
+/* --------------Laying on side----------------- */
+
+
+@media only screen and (max-width: 1024px) {
+  .imgDiv {
+    height: 200px;
+    width: 200px;
+    margin:10px;
+   }
+  
+   
+  #chartdiv {
+    height: 300px;
+    width: 450px;
+    margin:10px;
+  }
+
+}
+
+/* -----------------Tablet---------------------- */
+/* ----------------Standing--------------------- */
+@media only screen and (max-width: 1024px) and (min-height: 1100px) {
+  
+  .contentInternal {
+    flex-direction: column;
+    align-items: center;
+  }    
+}
+  
+  /* -----------------Phone---------------------- */
+  @media only screen and (max-width: 800px) {
+
+  .contentInternal {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .imgDiv {
+    height: 200px;
+    width: 200px;
+    margin:10px;
+  }
+
+ 
+  #chartdiv {
+    height: 300px;
+    width: 300px;
+    margin:10px;
+  }
+
+  #userInteraction {
+
+    height: 150px;
+    width: 150px;
+    align-items: center;
+  }
+ 
+}
+
+
+
+
+
+
+
+

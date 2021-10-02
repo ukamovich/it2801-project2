@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<footer
+  className="footer"
+>
+  <h2>
+    By Team43
+  </h2>
+</footer>
+`;
